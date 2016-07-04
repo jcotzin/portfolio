@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+
+.jumbotext {
+  position: absolute;
+  top: 90px;
+  right: 48px;
+  font-size: 30px;
+  font-family: lato;
+  text-align: center;
+}
+.contact-icons {
+  font-size: 35px;
+  position: relative;
+  top: -75px;
+  float: right;
+  margin-right: 164px;
+
+}
+a .fa {
+color: #222;
+}
+span {
+  font-size: 20px;
+}
+.about-page {
+  margin-top: 100px;
+}
+.wrap {
+ top:600px;
+ padding-top: 0;
+ font: 300 16px/1.2 Lato;
+ position: fixed;
+ background: white;
+ width: 100%;
+}
+
+.nav {
+  list-style: none;
+  padding-top: 0;
+}
+
+.nav li {
+  float: left; /*1*/
+  padding-left: 158px;
+}
+
+.nav > li a {
+  display: block; /*1*/
+  padding: 12px 18px; /*2*/
+  text-decoration: none; /*3*/
+  color: #999; /*4*/
+  border: 1px solid #eee;
+
+  transition: all ease .5s;
+  font-weight: bold;
+}
+
+/*
+  fade out all links on ul hover
+*/
+.nav:hover > li a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+
+/*
+  override previous rule to highlight current link
+*/
+.nav > li:hover a {
+  opacity: 1;
+  color: black;
+  border-color: #3D3D3D;
+
+}
+.jess-circle {
+  /*padding-left: 45.5%;*/
+  text-align: center;
+}
+h3 {
+  font-size: 28px;
+  font-family: Lato;
+  text-align: center;
+  padding-top: 2px;
+}
+.about p {
+  font-size: 18px;
+  font-family: Lato;
+  text-align:center;
+  padding: 46px 210px 70px 160px;
+  line-height: 1.4;
+}
+.info {
+  font-size: 13px;
+  font-family: Lato;
+  text-align: center;
+  float: left;
+  margin-left: 200px;
+  margin-right: -13px;
+  margin-top: 160px;
+}
+.info2 {
+  font-size: 13px;
+  font-family: Lato;
+  text-align: center;
+  float: right;
+  margin-right: 207px;
+  margin-top: 140px;
+}
+.madskillz {
+  padding-bottom: 60px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 73px 217px;
+  background: white;
+}
+.flex-item {
+  /*max-width: 580px;*/
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+  text-align: center;
+}
+.ruby-item {
+  margin-top: 26px;
+  margin-left: 8px;
+  text-align: center;
+}
+.html-item {
+  margin-top: 16px;
+}
+.flex-item img {
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+.experience {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: white;
+}
+
+.wyn, .gogo, .sss {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  font-size: 16px;
+}
+.experience p {
+  display: inline-block;
+  color: #757575;
+  font-family: lato;
+  line-height: 1.4;
+  text-align: justify;
+  display: block;
+  padding: 5px 20px;
+  padding: 12px;
+  width: 76%;
+}
+@media (max-width:600px){
+  .jumbotext {
+    position: absolute;
+    top: 38px;
+    right: 23px;
+    font-size: 8px;
+    font-family: lato;
+    text-align: center;
+  }
+  .jesspic {
+    height: 50%
+    width: 100%;
+  }
+  .about p {
+    font-size: 10px;
+    font-family: Lato;
+    text-align:center;
+    padding: 6px 60px 6px 60px;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-family: Lato;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .wrap {
+   padding: 10px;
+   font: 150 8px/1.2 Lato;
+  }
+  .nav {
+    list-style: none;
+  }
+  .nav li {
+    float: left; /*1*/
+    padding-left: 95px;
+  }
+  .nav > li a {
+    display: block; /*1*/
+    padding: 6px 9px; /*2*/
+    text-decoration: none; /*3*/
+    color: #999; /*4*/
+    border-bottom: .5px solid #eee;
+    transition: all ease .5s;
+    font-weight: bold;
+  }
+  .nav:hover > li a {
+    opacity: .5;
+    transition: all ease .5s;
+  }
+  .nav > li:hover a {
+    opacity: 1;
+    color: black;
+    border-color: black;
+  }
+  .info {
+    font-size: 7px;
+    font-family: Lato;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-right: -6px;
+    margin-top: 75px;
+  }
+  .info2 {
+    font-size: 7px;
+    font-family: Lato;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-top: 120px;
