@@ -2,6 +2,9 @@
 
 
 @media (min-width:92px){
+
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+
   .jumbotext {
     position: absolute;
     top: 90px;
@@ -28,7 +31,7 @@
     margin-top: 100px;
   }
   .wrap {
-   top:600px;
+   bottom: 0px;
    padding-top: 0;
    font: 300 16px/1.2 Lato;
    position: fixed;
@@ -165,5 +168,4 @@
     padding: 12px;
     width: 76%;
   }
-
 }
