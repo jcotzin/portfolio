@@ -1,8 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,500);
-
-
-@media (min-width:92px){
-
+@media (max-width : 2000px) and (min-width : 900px) {
   @import url(http://fonts.googleapis.com/css?family=Lato:300,500);
 
   .jumbotext {
@@ -16,7 +12,7 @@
   .contact-icons {
     font-size: 35px;
     position: relative;
-    top: -75px;
+    top: -103px;
     float: right;
     margin-right: 164px;
 
@@ -31,7 +27,7 @@
     margin-top: 100px;
   }
   .wrap {
-   bottom: 0px;
+   bottom: 3px;
    padding-top: 0;
    font: 300 16px/1.2 Lato;
    position: fixed;
@@ -168,4 +164,377 @@
     padding: 12px;
     width: 76%;
   }
+
+}
+
+@media (min-width : 600px) and (max-width : 900px){
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+
+  .jumbotext {
+    position: absolute;
+    top: 76px;
+    right: 30px;
+    font-size: 18px;
+    font-family: lato;
+    text-align: center;
+  }
+  .contact-icons {
+    font-size: 28px;
+      position: relative;
+      top: -102px;
+      float: right;
+      margin-right: 89px;
+
+  }
+  a .fa {
+  color: #222;
+  }
+  span {
+    font-size: 18px;
+  }
+  .about-page {
+    margin-top: 70px;
+  }
+  .wrap {
+    bottom: 14px;
+      padding-top: -4px;
+      font: 100 17px/1 Lato;
+      position: fixed;
+      background: white;
+      width: 100%;
+  }
+
+  .nav {
+    list-style: none;
+    padding-top: 0;
+  }
+
+  .nav li {
+    float: left; /*1*/
+    padding-left: 65px;
+  }
+
+  .nav > li a {
+    display: block; /*1*/
+    padding: 12px 18px; /*2*/
+    text-decoration: none; /*3*/
+    color: #999; /*4*/
+    border: 1px solid #eee;
+
+    transition: all ease .5s;
+    font-weight: bold;
+  }
+
+  /*
+    fade out all links on ul hover
+  */
+  .nav:hover > li a {
+    opacity: .5;
+    transition: all ease .5s;
+  }
+
+  /*
+    override previous rule to highlight current link
+  */
+  .nav > li:hover a {
+    opacity: 1;
+    color: black;
+    border-color: #3D3D3D;
+
+  }
+  .jess-circle img{
+    /*padding-left: 45.5%;*/
+    text-align: center;
+    margin-top: 62px;
+    margin-left: 12px;
+  }
+  h3 {
+    font-size: 29px;
+    font-family: Lato;
+    text-align: center;
+    padding-top: -4px;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 1px;
+  }
+  .about p {
+    font-size: 18px;
+    font-family: Lato;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    line-height: 1.4;
+    margin-top: 58px;
+  }
+  .info {
+    font-size: 13px;
+    font-family: Lato;
+    text-align: center;
+    float: left;
+    margin-left: 87px;
+    margin-right: 40px;
+    margin-top: 41px;
+  }
+  .info2 {
+    font-size: 13px;
+    font-family: Lato;
+    text-align: center;
+    float: right;
+    margin-right: 153px;
+    margin-top: 25px;
+  }
+  .madskillz {
+    padding-bottom: 60px;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 82px 141px;
+    background: white;
+  }
+  .flex-item {
+    /*max-width: 580px;*/
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 63px;
+  }
+  .ruby-item {
+    margin-top: 26px;
+    margin-left: 8px;
+    text-align: center;
+    margin-top: 139px;
+  }
+  .html-item {
+    margin-top: 130px;
+  }
+  .flex-item img {
+    width: 100%;
+    margin: 0;
+    padding:0;
+    margin-top: 63px;
+  }
+  .experience {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: white;
+  }
+
+  .wyn, .gogo, .sss {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    font-size: 14px;
+  }
+  .experience p {
+    display: inline-block;
+    color: #757575;
+    font-family: lato;
+    line-height: 1.4;
+    text-align: justify;
+    display: block;
+    padding: 5px 20px;
+    padding: 12px;
+    width: 76%;
+  }
+}
+@media (min-width: 80px) and (max-width : 600px) {
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+
+.jumbotext {
+  position: absolute;
+  top: 23px;
+  font-size: 9px;
+  font-family: lato;
+  text-align: center;
+  margin-left: 52%;
+}
+.contact-icons {
+  font-size: 22px;
+  position: relative;
+  top: -60px;
+  float: right;
+  margin-right: 2%;
+
+}
+a .fa {
+color: #222;
+}
+span {
+  font-size: 9px;
+}
+.about-page {
+  margin-top: 55px;
+}
+.wrap {
+ bottom: 0;
+ padding-top: 0;
+ font: 100 11px/4 Lato;
+ position: fixed;
+ background: white;
+ width: 100%;
+ z-index: 4;
+}
+
+.nav {
+  list-style: none;
+  padding-top: 0;
+}
+
+.nav li {
+  float: left; /*1*/
+}
+
+.nav > li a {
+  display: block; /*1*/
+  padding: 12px 18px; /*2*/
+  text-decoration: none; /*3*/
+  color: #999; /*4*/
+  border: 1px solid #eee;
+
+  transition: all ease .5s;
+  font-weight: bold;
+}
+
+/*
+  fade out all links on ul hover
+*/
+.nav:hover > li a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+
+/*
+  override previous rule to highlight current link
+*/
+.nav > li:hover a {
+  opacity: 1;
+  color: black;
+  border-color: #3D3D3D;
+
+}
+
+.title-pic {
+  position: absolute;
+  margin-top: -28px;
+}
+.jess-circle {
+  /*padding-left: 45.5%;*/
+  text-align: center;
+}
+h3 {
+  font-size: 19px;
+  font-family: Lato;
+  text-align: center;
+  /*padding-top: 2px;*/
+}
+
+.about {
+  position: absolute;
+  margin-top: 165px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.about p {
+  font-size: 10px;
+  font-family: Lato;
+  /*text-align:center;*/
+  /*padding: 46px 210px 70px 160px;*/
+  /*line-height: 1.4;*/
+}
+
+.info {
+  font-size: 8px;
+  font-family: Lato;
+  text-align: center;
+  float: left;
+  margin-left: 14px;
+  margin-right: -13px;
+  margin-top: 30px;
+}
+.info2 {
+  font-size: 8px;
+  font-family: Lato;
+  text-align: center;
+  float: right;
+  margin-right: 30px;
+  margin-top: 24px;
+}
+.madskillz {
+  /*padding-bottom: 60px;*/
+  margin-top: 82%;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 58px 23px;
+  background: white;
+}
+.flex-item img{
+  /*max-width: 580px;*/
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  width: 92px;
+height: 92px;
+
+}
+.ruby-item img{
+  margin-top: 13px;
+  margin-left: 8px;
+  /*text-align: center;*/
+  width:80px;
+  height: 80px;
+}
+ .html-item img{
+  margin-top: 5px;
+  width: 80px !important;
+  height: 80px !important;
+}
+.flex-item img {
+  width: 100%;
+  margin: 0;
+  padding:0;
+  width: 92px;
+height: 92px;
+}
+.experience {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: white;
+  margin: 1px;
+}
+
+.wyn, .gogo, .sss {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+  font-size: 14px;
+  margin-bottom: 53px;
+}
+.experience p {
+  display: inline-block;
+  color: #757575;
+  font-family: lato;
+  line-height: 1.4;
+  text-align: justify;
+  display: block;
+  padding: 5px 20px;
+  padding: 12px;
+  width: 76%;
+}
 }

@@ -1,35 +1,35 @@
 .jumbotext {
   position: absolute;
-  top: 90px;
-  right: 48px;
-  font-size: 30px;
+  top: 76px;
+  right: 30px;
+  font-size: 18px;
   font-family: lato;
   text-align: center;
 }
 .contact-icons {
-  font-size: 35px;
-  position: relative;
-  top: -75px;
-  float: right;
-  margin-right: 164px;
+  font-size: 28px;
+    position: relative;
+    top: -102px;
+    float: right;
+    margin-right: 89px;
 
 }
 a .fa {
 color: #222;
 }
 span {
-  font-size: 20px;
+  font-size: 18px;
 }
 .about-page {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .wrap {
- top:600px;
- padding-top: 0;
- font: 300 16px/1.2 Lato;
- position: fixed;
- background: white;
- width: 100%;
+  bottom: 23px;
+    padding-top: -4px;
+    font: 100 17px/1 Lato;
+    position: fixed;
+    background: white;
+    width: 100%;
 }
 
 .nav {
@@ -39,7 +39,7 @@ span {
 
 .nav li {
   float: left; /*1*/
-  padding-left: 158px;
+  padding-left: 65px;
 }
 
 .nav > li a {
@@ -75,16 +75,19 @@ span {
   text-align: center;
 }
 h3 {
-  font-size: 28px;
+  font-size: 29px;
   font-family: Lato;
   text-align: center;
-  padding-top: 2px;
+  padding-top: -4px;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 1px;
 }
 .about p {
   font-size: 18px;
   font-family: Lato;
-  text-align:center;
-  padding: 46px 210px 70px 160px;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
   line-height: 1.4;
 }
 .info {
@@ -92,17 +95,17 @@ h3 {
   font-family: Lato;
   text-align: center;
   float: left;
-  margin-left: 200px;
-  margin-right: -13px;
-  margin-top: 160px;
+  margin-left: 87px;
+  margin-right: 40px;
+  margin-top: 41px;
 }
 .info2 {
   font-size: 13px;
   font-family: Lato;
   text-align: center;
   float: right;
-  margin-right: 207px;
-  margin-top: 140px;
+  margin-right: 153px;
+  margin-top: 25px;
 }
 .madskillz {
   padding-bottom: 60px;
@@ -111,7 +114,7 @@ h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 73px 217px;
+  margin: 82px 141px;
   background: white;
 }
 .flex-item {
@@ -120,19 +123,23 @@ h3 {
   height: 125px;
   margin: 10px;
   text-align: center;
+  margin-top: 63px;
 }
 .ruby-item {
   margin-top: 26px;
   margin-left: 8px;
   text-align: center;
+  margin-top: 74px;
 }
 .html-item {
   margin-top: 16px;
+  margin-top: 69px;
 }
 .flex-item img {
   width: 100%;
   margin: 0;
   padding:0;
+  margin-top: 63px;
 }
 .experience {
   display: flex;
@@ -148,7 +155,7 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: -35px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .experience p {
   display: inline-block;
