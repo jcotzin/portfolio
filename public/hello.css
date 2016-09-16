@@ -278,7 +278,7 @@
       content: "";
       display: table;
       clear: both;
-      width: 80%;
+      width: auto;
     }
 
     .hold-it {
@@ -290,6 +290,10 @@
       float: left;
       overflow: hidden;
       margin-bottom: 4%;
+    }
+
+    .projects .hold-it:last-child {
+        margin-right: auto;
     }
 
     .overlay {
@@ -1242,6 +1246,7 @@
     content: "";
     display: table;
     clear: both;
+    width: auto;
   }
 
   .hold-it {
