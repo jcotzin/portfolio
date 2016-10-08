@@ -264,7 +264,7 @@
       box-sizing: border-box;
     }
 
-    .projects {
+    .projects, .projects2 {
       max-width: 100%;
       height: auto;
       margin: 40px auto auto auto;
@@ -292,7 +292,7 @@
       margin-bottom: 7px;
     }
 
-    .projects .hold-it:last-child {
+    .projects, .projects2, .hold-it:last-child {
         margin-right: auto;
     }
 
@@ -606,7 +606,7 @@
     box-sizing: border-box;
   }
 
-  .projects {
+  .projects, .projects2 {
     max-width: 100%;
     height: auto;
     margin: 40px auto auto auto;
@@ -624,15 +624,18 @@
     width: 100%
   }
 
+  .projects2 {
+    margin-top: -70px;
+  }
   .hold-it {
     position: relative;
-    width: 345px;
-    height: 280px;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     float: left;
     overflow: hidden;
-    margin-bottom: 4%;
+    margin-bottom: 7px;
     margin-right: 12px;
   }
 
@@ -680,13 +683,15 @@
   }
 
   .hold-it img {
-    height: 300px;
-    width:335px
+    height: auto;
+    width:95%;
+    margin-left: 3%;
   }
 }
 
 @media (min-width: 350px) and (max-width : 600px) {
   /*mobile*/
+
   .color {
     background-color: #96CDCD;
     height: 180px;
@@ -774,6 +779,8 @@
 
     transition: all ease .5s;
     font-weight: bold;
+    margin-right: 28px;
+    margin-left: -24px;
   }
 
   /*
@@ -922,7 +929,7 @@
     box-sizing: border-box;
   }
 
-  .projects {
+  .projects, .projects2 {
     max-width: 100%;
     height: auto;
     margin: 40px auto auto auto;
@@ -938,18 +945,23 @@
     clear: both;
   }
 
+  .projects2 {
+    margin-top: -80px!important;
+  }
+
   .hold-it {
     position: relative;
-    width: 335px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     float: left;
     overflow: hidden;
-    margin-bottom: 4%;
+    margin-bottom: 7px;
+
   }
 
-  .overlay {
+  .overlay, .hover{
     display: block;
     position: absolute;
     top: auto;
@@ -970,7 +982,7 @@
     transition: all 250ms ease-in;
   }
 
-  .hold-it:hover .overlay {
+  .hold-it:hover .overlay, .hold-it.hover_effect {
     opacity: .75;
   }
 
@@ -993,8 +1005,8 @@
   }
 
   .hold-it img {
-    height: 300px;
-    width:335px
+    height: 255px;
+    width:346px
   }
 
 }
@@ -1232,7 +1244,7 @@
     box-sizing: border-box;
   }
 
-  .projects {
+  .projects, .projects2 {
     max-width: 100%;
     height: auto;
     margin: 40px auto auto auto;
@@ -1249,10 +1261,14 @@
     width: auto;
   }
 
+  .projects2 {
+    margin-top: -76px;
+  }
+
   .hold-it {
     position: relative;
-    width: 300px;
-    height: 265px;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     float: left;
@@ -1304,8 +1320,8 @@
   }
 
   .hold-it img {
-    height: 300px;
-    width:335px
+    height: 240px;
+    width: 299px;
   }
 
 }
