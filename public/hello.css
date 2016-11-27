@@ -145,6 +145,7 @@
   .aboutme-container {
     background-color: #f1f1f1;
     margin-top: -100px;
+    padding-bottom: 1px;
   }
 
   h3 {
@@ -279,6 +280,12 @@
       display: table;
       clear: both;
       width: auto;
+      padding-bottom: 7px;
+    }
+
+    .projects2 {
+      margin-top: -18px;
+      padding-bottom: 50px;
     }
 
     .hold-it {
@@ -622,11 +629,9 @@
     clear: both;
     margin-top: 8%;
     width: 100%
+    padding-bottom: 6px;
   }
 
-  .projects2 {
-    margin-top: -70px;
-  }
   .hold-it {
     position: relative;
     width: auto;
